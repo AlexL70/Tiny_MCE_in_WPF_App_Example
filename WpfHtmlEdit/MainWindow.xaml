@@ -11,7 +11,7 @@
         <!-- Add a xmlns:wpf="clr-namespace:CefSharp.Wpf;assembly=CefSharp.Wpf" attribute to your parent control -->
         <!-- Create a new instance in code or in `xaml` -->
         <Border Grid.Row="1" BorderBrush="Gray" BorderThickness="0,1">
-            <wpf:ChromiumWebBrowser x:Name="Browser" Address="www.google.com"/>
+            <wpf:ChromiumWebBrowser x:Name="Browser" Address="file:///./Editor.html"/>
         </Border>
     </Grid>
 </Window>
